@@ -1,0 +1,56 @@
+<style>
+
+<link href='https://fonts.googleapis.com/css?family=CedarvilleCursive' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Cedarville Cursive';font-size: 22px;
+}
+
+h1 {
+  font-family: 'Cedarville Cursive', Cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
